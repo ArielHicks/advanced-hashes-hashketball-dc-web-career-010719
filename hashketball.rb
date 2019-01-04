@@ -225,7 +225,7 @@ def big_shoe_rebounds
     end
   end
   # finds the player with largest shoes size
-  largest = -1
+  largest = 0
   shoe_sizes.each do |x|
     if x > largest
       largest = x
