@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash
 # we start off by defining game_hash which we'll refer back to during the entire lab
 # then we go through and start plugging in key/value pairs for the home team
