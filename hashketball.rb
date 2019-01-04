@@ -128,6 +128,7 @@ def num_points_scored(player_name)
 # and we use symbols (with one object id) to take up less memory
   game_hash.each do |team, random|
     game_hash[team][:players].each do |name, stats|
+      binding.pry
      if player_name == name
        return stats[:points]
 # then we want to return the number of points scored for each player if player_name is equal to the key of name
